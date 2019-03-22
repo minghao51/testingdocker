@@ -7,6 +7,7 @@ RUN apt-get update && \
 	gsl-bin \
 	libgsl0-dbg \
 	libgsl0-dev \
-	libgsl2 \
-	apt-get update &&\
+	libgsl2 
+
+RUN apt-get update &&\
 	apt-get install -y gb
